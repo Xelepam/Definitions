@@ -97,7 +97,34 @@ Stages:
 
 16. Exceptions in Java
 
+Exceptions in Java occur when the normal flow pattern of the program is disrupted and the program terminates abnormally. These exceptions can be caused by user, programmer, and physical resources error. Common Java exceptions are:
+
+•    A user has entered and invalid data set
+•    A file that needs to be opened cannot be found
+•    A network connection has been lost in the middle of 	    communications or the JVM has run out of memory.
+
+Based on these issues above Java Exceptions have been broken down into 3 major categorys:
+
+#Checked exceptions:
+A checked exception is an exception that is checked (notified) by the compiler at compilation-time, these are also called as compile time exceptions. These exceptions cannot simply be ignored, the programmer should take care of (handle) these exceptions.
+
+#Unchecked Exceptions:
+An unchecked exception is an exception that occurs at the time of execution. These are also called as Runtime Exceptions. These include programming bugs, such as logic errors or improper use of an API. Runtime exceptions are ignored at the time of compilation.
+
+#Errors:
+These are not exceptions at all, but problems that arise beyond the control of the user or the programmer. Errors are typically ignored in your code because you can rarely do anything about an error. For example, if a stack overflow occurs, an error will arise. They are also ignored at the time of compilation.
+
+For more in depth information about how to handle Java exceptions:
+
+https://www.tutorialspoint.com/java/java_exceptions.htm
+
+
+
+
+
 17. Call by value
+
+
 
 18. Call by reference 
 
